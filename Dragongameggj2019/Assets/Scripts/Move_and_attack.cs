@@ -9,6 +9,7 @@ public class Move_and_attack : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject blood;
 
     public float moveSpeed = 3f;
@@ -29,11 +30,16 @@ public class Move_and_attack : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 254fc3a... Back again
+=======
+>>>>>>> parent of 254fc3a... Back again
     gggameManager GameManager;
     float dirX, dirY;
     public float moveSpeed = 5f;
     public Vector3 moveVector;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 254fc3a... Back again
+=======
 >>>>>>> parent of 254fc3a... Back again
 =======
 >>>>>>> parent of 254fc3a... Back again
@@ -42,6 +48,7 @@ public class Move_and_attack : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +82,7 @@ public class Move_and_attack : MonoBehaviour
 
     void Update()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
