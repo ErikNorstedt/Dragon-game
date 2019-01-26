@@ -342,7 +342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 293add6... dragonisin
 --- !u!1 &498788676
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +440,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 293add6... dragonisin
+=======
 >>>>>>> parent of 293add6... dragonisin
 --- !u!1 &519420028
 GameObject:
@@ -551,6 +557,9 @@ MonoBehaviour:
 =======
   moveSpeed: 5
   moveVector: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 293add6... dragonisin
+=======
 >>>>>>> parent of 293add6... dragonisin
 --- !u!58 &580945050
 CircleCollider2D:
@@ -790,6 +799,7 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1434931123
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +830,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1475122769
 =======
+=======
+>>>>>>> parent of 293add6... dragonisin
 --- !u!1 &2112067991
 >>>>>>> parent of 293add6... dragonisin
 GameObject:
@@ -925,6 +937,9 @@ Transform:
   m_GameObject: {fileID: 2112067991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.11, y: 0.04, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 293add6... dragonisin
+=======
 >>>>>>> parent of 293add6... dragonisin
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
