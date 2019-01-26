@@ -67,6 +67,10 @@ public class Move_and_attack : MonoBehaviour
         GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
         GameManager = gameController.GetComponent<gggameManager>();
 >>>>>>> parent of 254fc3a... Back again
+=======
+        GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
+        GameManager = gameController.GetComponent<gggameManager>();
+>>>>>>> parent of 254fc3a... Back again
     }
 
     void Update()
@@ -97,6 +101,9 @@ public class Move_and_attack : MonoBehaviour
 >>>>>>> parent of df7e612... Moving script con
 =======
        
+=======
+        transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
+>>>>>>> parent of 254fc3a... Back again
 =======
         transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
 >>>>>>> parent of 254fc3a... Back again
