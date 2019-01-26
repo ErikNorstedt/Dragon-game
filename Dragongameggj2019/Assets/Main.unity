@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 260910320}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: GameController
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -653,6 +653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   blood: {fileID: 0}
   moveSpeed: 1
 =======
@@ -662,6 +663,9 @@ MonoBehaviour:
 >>>>>>> parent of 293add6... dragonisin
 =======
 >>>>>>> parent of 293add6... dragonisin
+=======
+  moveSpeed: 5
+>>>>>>> parent of df7e612... Moving script con
 --- !u!58 &580945050
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -750,7 +754,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 580945048}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 4.95, y: 1.6, z: -0.004658047}
+  m_LocalPosition: {x: 3.05, y: 1.52, z: -0.004658047}
   m_LocalScale: {x: 0.40000045, y: 1.320001, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -899,6 +903,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1111,3 +1116,5 @@ Transform:
   m_RootOrder: 6
 >>>>>>> 293add689d7ad8c2176079fec6323864aea89666
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of df7e612... Moving script con
