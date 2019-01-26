@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Move_and_attack : MonoBehaviour
 {
+<<<<<<< HEAD
     public GameObject blood;
 
     public float moveSpeed = 3f;
+=======
+    gggameManager GameManager;
+    float dirX, dirY;
+    public float moveSpeed = 5f;
+    public Vector3 moveVector;
+>>>>>>> parent of 254fc3a... Back again
     Rigidbody2D rb;
     Vector3 localScale;
     bool movingRight = true;
@@ -16,12 +23,18 @@ public class Move_and_attack : MonoBehaviour
     {
         localScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
         leftWayPoint = GameObject.Find("LeftWayPoint").GetComponent<Transform>();
         rightWayPoint = GameObject.Find("RightWayPoint").GetComponent<Transform>();
+=======
+        GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
+        GameManager = gameController.GetComponent<gggameManager>();
+>>>>>>> parent of 254fc3a... Back again
     }
 
     void Update()
     {
+<<<<<<< HEAD
         if (transform.position.x > rightWayPoint.position.x)
             movingRight = false;
         if (transform.position.x < leftWayPoint.position.x)
@@ -31,6 +44,11 @@ public class Move_and_attack : MonoBehaviour
             moveRight();
         else
             moveLeft();
+=======
+        transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
+        dirX = Input.GetAxis("Horizontal");
+        dirY = Input.GetAxis("Vertical");
+>>>>>>> parent of 254fc3a... Back again
     }
 
     void moveRight()

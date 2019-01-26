@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Dragonhead
+  - dragonbody
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: foreground
+    uniqueID: 1472361233
+    locked: 0
+  - name: dragonhead
+    uniqueID: 4010824499
+    locked: 0
+  - name: dragonbody
+    uniqueID: 528541163
+    locked: 0
+  - name: dragonwings
+    uniqueID: 2555061073
+    locked: 0
+  - name: background
+    uniqueID: 2505491563
     locked: 0
