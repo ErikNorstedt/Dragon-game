@@ -6,6 +6,6 @@ public class CastleLife : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col)
     {
-		HealthBarScript.health -= 16f;
+		HealthBarScript.health -= 10f;
 	}
 }
