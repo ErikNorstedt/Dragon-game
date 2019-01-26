@@ -654,6 +654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   blood: {fileID: 0}
   moveSpeed: 1
 =======
@@ -663,6 +664,9 @@ MonoBehaviour:
 >>>>>>> parent of 293add6... dragonisin
 =======
 >>>>>>> parent of 293add6... dragonisin
+=======
+  moveSpeed: 5
+>>>>>>> parent of df7e612... Moving script con
 =======
   moveSpeed: 5
 >>>>>>> parent of df7e612... Moving script con
@@ -906,6 +910,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c871ab093f419e80a3eb401b93ce29c77aeeed2d
@@ -1116,5 +1121,7 @@ Transform:
   m_RootOrder: 6
 >>>>>>> 293add689d7ad8c2176079fec6323864aea89666
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of df7e612... Moving script con
 =======
 >>>>>>> parent of df7e612... Moving script con

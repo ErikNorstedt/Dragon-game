@@ -6,6 +6,7 @@ public class Move_and_attack : MonoBehaviour
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject blood;
 
     public float moveSpeed = 3f;
@@ -19,11 +20,16 @@ public class Move_and_attack : MonoBehaviour
     float dirX, dirY;
     public float moveSpeed = 5f;
 >>>>>>> parent of df7e612... Moving script con
+=======
+    float dirX, dirY;
+    public float moveSpeed = 5f;
+>>>>>>> parent of df7e612... Moving script con
     Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         leftWayPoint = GameObject.Find("LeftWayPoint").GetComponent<Transform>();
@@ -35,10 +41,14 @@ public class Move_and_attack : MonoBehaviour
 =======
 
 >>>>>>> parent of df7e612... Moving script con
+=======
+
+>>>>>>> parent of df7e612... Moving script con
     }
 
     void Update()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (transform.position.x > rightWayPoint.position.x)
@@ -55,6 +65,11 @@ public class Move_and_attack : MonoBehaviour
         dirX = Input.GetAxis("Horizontal");
         dirY = Input.GetAxis("Vertical");
 >>>>>>> parent of 254fc3a... Back again
+=======
+       
+        dirX = Input.GetAxis("Horizontal");
+        dirY = Input.GetAxis("Vertical");
+>>>>>>> parent of df7e612... Moving script con
 =======
        
         dirX = Input.GetAxis("Horizontal");
