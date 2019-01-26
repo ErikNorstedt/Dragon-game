@@ -8,6 +8,7 @@ public class Move_and_attack : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject blood;
 
     public float moveSpeed = 3f;
@@ -26,16 +27,22 @@ public class Move_and_attack : MonoBehaviour
     public float moveSpeed = 5f;
 >>>>>>> parent of df7e612... Moving script con
 =======
+=======
+>>>>>>> parent of 254fc3a... Back again
     gggameManager GameManager;
     float dirX, dirY;
     public float moveSpeed = 5f;
     public Vector3 moveVector;
+<<<<<<< HEAD
+>>>>>>> parent of 254fc3a... Back again
+=======
 >>>>>>> parent of 254fc3a... Back again
     Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,10 +63,15 @@ public class Move_and_attack : MonoBehaviour
         GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
         GameManager = gameController.GetComponent<gggameManager>();
 >>>>>>> parent of 254fc3a... Back again
+=======
+        GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
+        GameManager = gameController.GetComponent<gggameManager>();
+>>>>>>> parent of 254fc3a... Back again
     }
 
     void Update()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +97,9 @@ public class Move_and_attack : MonoBehaviour
 >>>>>>> parent of df7e612... Moving script con
 =======
        
+=======
+        transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
+>>>>>>> parent of 254fc3a... Back again
 =======
         transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
 >>>>>>> parent of 254fc3a... Back again
