@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gameManager : MonoBehaviour
+public class gggameManager : MonoBehaviour
 {
     public float moveSpeed = 1.0f;
     public Vector3 moveVector;
